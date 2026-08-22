@@ -1,0 +1,47 @@
+.maincard {
+
+    display: flex;
+    width: 500px;
+    height: 800 px ;
+     background: linear-gradient(pink,  cyan);
+     flex-direction: column;
+
+    
+
+}
+
+.imgcard {
+
+    width: 340px;
+    height: 320px;
+    border: 1px solid black;
+
+}
+
+#img {
+
+    width: 50%;
+    height: 100%;
+    
+}
+h1{
+     background: linear-gradient(pink  cyan);
+
+     margin-top:  10px;
+     margin-left: 20px  ;
+}
+h2{
+    margin-top: -55px;
+    margin-left: 120px ;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: black;
+    color: aqua;
+    border-radius: 20px ;
+}
+.btn:hover{
+    color: white; 
+    background-color: black;
+}

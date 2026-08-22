@@ -1,0 +1,73 @@
+.navbhar{
+    width: 100%;
+    height: 50px;
+display: flex;
+align-items: center;
+background-color: black;
+font-size: 20px;
+justify-content: center;
+color:white;
+border: 1px solid black;
+}
+.loginbox{ 
+    display: flex;
+    border: 1px solid black;
+    margin-left: 300px;
+
+}
+.navmanue{
+display: flex;
+align-items: center;
+gap: 20px;
+font-size: 20px;
+justify-content: center;
+color: aliceblue; 
+height: 30px;
+margin-left: 200px;
+
+}
+.nav{
+    text-decoration: none;
+    color:  red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    
+    
+
+}
+.nav:hover{
+    color : white;
+    background-color:bla
+}
+.logobox{
+flex: 1;
+
+    
+}
+img{
+    display: flex;
+    width: 40px;
+    
+}
+button{
+    right: 50px;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    
+}
+.icons{
+ display: flex;
+ color: black;
+ margin-right: 30px;
+
+
+
+
+}
+.camera{
+    width: 100%;
+    height: 100%;
+    border-radius: 500px;
+
+}
