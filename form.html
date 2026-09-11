@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admission Form</title>
+
+<style>
+input {
+    width: 211px;
+    height: 20px;
+    margin-left: 10px;
+}
+#student {
+    width: 300px;
+}
+</style>
+</head>
+
+<body>
+
+<form name="studentForm" onsubmit="return validateForm()" action="second.html">
+
+<h1>Admission Form</h1>
+
+<div>
+Student Name
+<input type="text" name="firstName" placeholder="Enter first name">
+<input type="text" name="lastName" placeholder="Enter last name">
+</div><br>
+
+<div>
+Class you want to apply
+<input id="student" type="text" name="className" placeholder="Enter your class">
+</div><br>
+
+<div>
+Student DoB
+<input type="date" name="dob">
+</div><br>
+
+<div>
+Parent/Guardian
+<input type="text" name="mother" placeholder="Mother name">
+<input type="text" name="father" placeholder="Father name">
+</div><br>
+
+<div>
+Current Address
+<input id="student" type="text" name="address" placeholder="Street address">
+</div><br>
+
+<input type="text" name="city" placeholder="City">
+<input type="text" name="region" placeholder="Region"><br><br>
+
+<input type="number" name="zip" placeholder="Postal zip/code">
+<input type="number" name="number" placeholder="Phone number"><br><br>
+
+<div>
+Email
+<input type="email" name="email" placeholder="Enter your email">
+</div><br>
+
+<select name="selectCity">
+<option value="">Select city</option>
+<option>Mumbai</option>
+<option>Delhi</option>
+<option>Kolkata</option>
+<option>Noida</option>
+</select><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<script>
+function validateForm() {
+    let form = document.forms["studentForm"];
+
+    let firstName = form["firstName"].value;
+    let className = form["className"].value;
+    let dob = form["dob"].value;
+    let address = form["address"].value;
+    let city = form["city"].value;
+    let region = form["region"].value;
+    let zip = form["zip"].value;
+    let number = form["number"].value;
+    let email = form["email"].value;
+
+    if (firstName === "") {
+        alert("Student name is required");
+        return false;
+    }
+    if (className === "") {
+        alert("Enter class you want to apply");
+        return false;
+    }
+    if (dob === "") {
+        alert("Fill date of birth");
+        return false;
+    }
+    if (address === "") {
+        alert("Enter your address");
+        return false;
+    }
+    if (city === "") {
+        alert("Enter your city");
+        return false;
+    }
+    if (region === "") {
+        alert("Enter your region");
+        return false;
+    }
+    if (zip === "") {
+        alert("Enter postal zip code");
+        return false;
+    }
+    if (number === "") {
+        alert("Enter your phone number");
+        return false;
+    }
+    if (email === "") {
+        alert("Enter your email");
+        return false;
+    }
+
+    return true;
+}
+</script>
+
+</body>
+</html>
