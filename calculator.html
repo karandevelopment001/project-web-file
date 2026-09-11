@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .calculator{
+            width: 215px;
+            height: 300px;
+            background-color: bisque;
+            border: 1px solid gray;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            width: 95%;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+        button{
+            width: 50px;
+            height: 50px;
+        }
+        #equal{
+            width: 103px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+<form name="myform">
+    <input type="text" placeholder="0" name="ans"><br>
+    <button type="button" onclick="document.myform.ans.value=document.myform.ans.value.slice=(0,-9)">C</button>\
+    
+    <button type="button" onclick="document.myform.ans.value=''">AC</button>
+    <button type="button" onclick="document.myform.ans.value+='%'">%</button>
+    <button type="button" onclick="document.myform.ans.value+='/'">/</button>
+    <button type="button" onclick="document.myform.ans.value+='7'">7</button>
+    <button type="button" onclick="document.myform.ans.value+='8'">8</button>
+    <button type="button" onclick="document.myform.ans.value+='9'">9</button>
+    <button type="button" onclick="document.myform.ans.value+='*'">x</button>
+    <button type="button" onclick="document.myform.ans.value+='4'">4</button>
+    <button type="button" onclick="document.myform.ans.value+='5'">5</button>
+    <button type="button" onclick="document.myform.ans.value+='6'">6</button>
+    <button type="button" onclick="document.myform.ans.value+='-'">-</button>
+    <button type="button" onclick="document.myform.ans.value+='1'">1</button>
+    <button type="button" onclick="document.myform.ans.value+='2'">2</button>
+    <button type="button" onclick="document.myform.ans.value+='3'">3</button>
+    <button type="button" onclick="document.myform.ans.value+='+'">+</button>
+    <button type="button" onclick="document.myform.ans.value+='0'">0</button>
+    <button type="button" onclick="document.myform.ans.value+='.'">.</button>
+    <button type="button" id="equal" onclick="document.myform.ans.value=eval(document.myform.ans.value)">=</button>
+
+ 
+    
+</form>
+    </div>
+</body>
+</html>

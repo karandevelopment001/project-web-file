@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+</head>
+<style>
+    input{
+        justify-content: center;
+        width: 211px;
+        height: 20px;
+      margin-left: 10px;
+
+         
+    }
+    #student{
+        width: 300px;
+    }
+
+
+
+</style>
+<body>
+A\<form name="student" onsubmit="return submit()" action="C:\Users\Eight Academy\Desktop\karan learner\seceon.html" >
+    <h1>admission form</h1>
+
+ <div> student name <input type="text" name="student " placeholder=" enter your first" >
+<input  type="text" name="student " placeholder=" enter your last" ></div><br>
+<div>class you 
+wan to apply<input id="student"  type="text" name="student" placeholder="enter your class" ></div><br>
+<div> student DoB* <input type="date" name="student"  placeholder="" ></div> <br>
+<div> parent/Gurdian <input type="text" name="student" placeholder="enter your mother name" > 
+    <input type="text" name="student" placeholder="enter your father name" ></div> <br>
+    <div> current address <input id="student" type="text" name="student" placeholder="street adress "></div><br>
+    <input type="text" name="student" placeholder="city">
+    <input type="text" name="student" placeholder="region"> <br><br>
+    <input type="number" name="student"  placeholder="postal  zip/code ">
+      <input type="number" name="stude5nt" placeholder="enter  your number" ><br><br>
+      <div> Email<input type="email" name="student" placeholder="enter your email"></div> 
+       <button>submit</button>
+<select name="selact">
+    <option value="">mumbai</option>
+    <option value="">delhi</option>
+    <option value="">kolkata</option>
+    <option value="">novda</option>
+</select>
+<script>
+     function submit(){
+        if (student=="" ||student==""){
+        alert("studentname is requard")
+        console.log(student,classyouwant,studentDoB,parentGurdian,currentaddress,email)
+        return false;
+    }
+    else if (classyouwant==""||classyouwant==""){
+
+        alert("tel us class you want to apply")
+        return false;
+
+
+    }
+    else if (studentDoB==""||studentDoB==""){
+        alert("fil up date of barth")
+        return false;
+    }
+    else if (parentGurdian==""||parentGurdian==""){
+        alert("fill ip parents/gurdian names")
+        false;
+        
+    }
+    else if ( currentaddress==""|| currentaddress==""){
+        alert("fill up your adrasse")
+        return false;
+    }
+    else if(city==""){
+        alert("fill up your city ")
+        return false;
+    }
+    else if(region==""){
+      alert("enter your region")
+      return false;
+
+    }
+ else   if(zip/code==""){
+        alert ("enter your postal zip/code")
+        return false;
+    }
+else if (number==""||number==null){
+    alert ("enter your number")
+    false;
+}
+else if(email==""){
+    alert("enter your imail to verify & inform")
+}
+     } 
+    
+</script> 
+</form>
+</body>
+</html>
