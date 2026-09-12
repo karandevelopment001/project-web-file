@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h3>software</h3>
+<h3>software</h3>
+<h3>software</h3>
+<h3>software</h3>
+<h3>software</h3>
+
+    <h1 id="box" class="item">eight academy1</h1>
+    <h1 id="box" class="item">eight academy2</h1>
+    <h1 id="box" class="item">eight academy3</h1>
+    <h1 id="box" class="item">eight academy4</h1>
+    <h1 id="box" class="item">eight academy5</h1>
+
+    <h2>eight</h2>
+    <h2>eight</h2>
+    <h2>eight</h2>
+    <h2>eight</h2>
+    <h2>eight</h2>
+    <script>
+
+        let myheading=document.getElementById("box");
+        let mydata=document.getElementsByClassName("item")
+        myheading.style.backgroundColor="cyan"
+
+        console.log(mydata)
+        mydata[0].style.backgroundColor="red"
+        mydata[1].style.backgroundColor="purple"
+
+
+        for(let i=0;i<mydata.length;i++){
+            mydata[i].style.color="red"
+        }
+
+        let secondheading=document.getElementsByTagName("h2");
+        console.log(secondheading)
+
+    </script>
+</body>
+</html>

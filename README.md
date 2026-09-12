@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,3 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# my-Project"  "# my-Project"  "# my-Project"  "# my-Project" 
+=======
+<<<<<<< HEAD
+"# Karandevlop" 
+=======
+# project-web-file
+>>>>>>> 5c6708af283abb2b093e6691983f57f50e50fd88
+>>>>>>> be235761b7c86c337e3803af0d105ba288abe281

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let arrdata=[8,9,5,3,7,5]
+
+       let result=arrdata.map((value,index,arr)=>{
+         <!-- console.log(`value is ${value} index  is ${index} array is ${arr}`) -->
+
+          return value+5;
+
+       })
+
+       console.log(result)
+
+
+       let arr3=[1,2,54,3,4,5,6,7,8,9,22,33,44,]
+
+       let data=arr3.filter((value)=>{
+return value>20;
+       })
+
+       console.log(data)
+    </script>
+</body>
+</html>
