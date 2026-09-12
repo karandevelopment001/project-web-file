@@ -1,11 +1,12 @@
 import React from 'react'
 import img from './Mydata/img/image.png'
+
 const About = () => {
   return (
   <section className="about-seaction">
       <div className="about-img" >
           <img src= {img}  alt="About us" />
-           <img src="" alt="" />
+           
       </div>
 <div className='about-card'>
   <h2>About us</h2>
@@ -50,7 +51,24 @@ const About = () => {
 </div>
 </div>
 </div>
-<section className='services-seaction'></section>
+<section className='services-seaction'>
+  <div className='service-intero'>
+    <h2>
+      We Provide the  <br />
+      Best Service
+    </h2>
+    <div className='main-service'>
+      <div className='icon'>
+        <img src= "" alt="" />
+
+        <h3>Security camera</h3>
+<p>Monitor your Property With Advanced Security
+  Camera Systems and Reliable  Protecti
+</p>
+      </div>
+    </div>
+  </div>
+</section>
   </section>
 
   )
